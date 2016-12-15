@@ -1,0 +1,98 @@
+git config --global user.name "sargiskh"
+git config --global user.email "sargiskh@energizeglobal.com"
+git config --list
+
+git help commit
+
+git init
+
+ls -la *************** shows list with hidden files
+
+git add .   ************ add foler 
+git commit -m "This is first commit"   *********** (-m) commits with message *********** save the project at this time.
+
+git log    **************** to show commits list
+git log --author="Sargis"   ********** will show commits only set person
+git status   ****************  will show chenges that are not commited in git
+
+git diff   ************* shows changes with commeted and not commited files(working copy and repository
+git diff --staged   ******* show diff between added+commited and added files
+
+git rm third.txt   ***************  removes the third.txt file from working copy
+git mv second.txt pudding.txt   ************ (mv == move) rename the (econd.txt) file to (pudding.txt) in working copy
+git mv pudding.txt LoveNots/patty.txt  ********** do renaming and put into new file to new folder
+
+git commit -am "Cleaned up the HTML comments"  ******* changed exats filer@ mingamic karox enq commit anel es exanakov aranc "git add" anelu (NOT RECOMENDED TO USE)
+
+git checkout -- index.html  ************** "checkout" means something from the repository and make it your working copy (git checkout-ov ete local copyum in4 vor ban poxel enq u add enq arel apa het karox enq berel et popoxutyun@), "--"@ nshanakuma menq chenq nayum repository ayl uxaki nayum enq file
+
+git reset HEAD index.html  ****** ete index.htm file@ popoxel em heto add em arel gitum, bayc commit 4em arel, kanach cuyc kta status@ u kasi vor stage areaum e gtnvum, es hramanov "git add" vi4akic hanum enq aysinq "stage area"yic hanum enq popoxvats file@, bayc meka inq@ local areaum mnuma popoxvats vi4akum
+
+git checkout b6ca4a8 -- index.html  ****** vercnum e hin version repositoryaic u verakangnum ------ asuma gna b6ca4a8.... commit (logov erevuma) u copy ara et index.html file@
+
+
+git remote add DogsRepo https://github.com/SargisKhlopuzyan/tutorials.git  ********** will asign linke to the name (vor amen anagam et erkar linke@ 4havaqenq dra hamara)
+
+git remote **********  cuyc e talis remote arats namere@
+
+
+git push -u DogsRepo master   *************   compi mejic uxarkum e sever(GitHub) ("-u"-n nushanakum e vercru amboxj@)
+
+
+
+
+**********************************************************************************************************************************************************
+
+
+*** Create the branch on your local machine and switch in this branch :
+git checkout -b [name_of_your_new_branch]
+***
+
+*** Push the branch on github :
+$ git push origin [name_of_your_new_branch]
+***
+
+*** When you want to commit something in your branch, be sure to be in your branch.
+*** You can see all branches created by using :
+$ git branch
+***
+
+*** deletes mybranch brach
+git branch -d mybranch
+***
+
+*** Add a new remote for your branch :
+$ git remote add [name_of_your_remote] 
+
+*** this must be done only first time
+(git push --set-upstream origin [name_of_your_branch])
+
+*** Push changes from your commit into your branch :
+$ git push [name_of_your_new_remote] [name_of_your_branch]
+***
+
+*** Switched to branch 'master'
+git checkout master
+***
+
+*****************************************************************************************************************
+*** mergeing of branches!!!
+*** vorpeszi mi branch@ myusi het merge anenq piti gnaqn en branch@ vortex uzum enq myus@ avelacnel u heto havaqum enq hetevyal command@:
+git merge [name_of_your_branch]
+
+
+***************************************
+git pull origin master    *****  serveric qashuma change exats amen in4@ in4 4ka localum (ete jnjes filer@ u commit 4anes, apa recovery 4i ani)
+**
+
+** (verakangnuma local repoyum exatsner@ commit aratsner@, ete remotum poxvats ban lini 4i verakangni) ete local repositoryum sax jnjes commit mmit 4anes u kan4es es hraman@ apa sax kverakangni + ktoxni avelacrats filer@ nuynpes 
+(ete modified exats file ka, apa ays depqum sax jnjuma u dnuma nor qashats@, popoxvats file@ 4i pahum, ete uzum enq pahenq piti "git add", "git commit" anenq)
+**
+git reset --hard
+
+** Will open your editor, allowing you to change the commit message of the most recent commi
+git commit --amend
+** or
+git commit --amend -m "New commit message"
+**
+

@@ -1,0 +1,36 @@
+https://drive.google.com/file/d/0B8dHhJw6tD2GTVRtLWdkS0ZZTDQ/view
+* * * * * 2nd -> 194 * * * * *
+
+571-586: ***TODO***TODO***TODO*** 32. Maps
+551-570: ***TODO***TODO***TODO*** 31. Locations and Play Services
+491-510: ***TODO***TODO***TODO*** 27. Broadcast Intents
+467-490: ***TODO***TODO***TODO*** 26. Background Services
+429-448: ***TODO***TODO***TODO*** 24. Loopers, Handlers, and HandlerThread
+
+state list drawables, shape drawables, and layer list drawables
+
+550: Transitions (mi orinak googlel gtnel usumnasirel)
+425: For example, you retained the fragment (called setRetainInstance(true)) so that rotation does not repeatedly fire off new AsyncTasks to fetch the JSON data 
+425: This parameter is the type of result produced by your AsyncTask. It sets the type of value returned by doInBackground(…) as well as the type of onPostExecute(…)’s input parameter.
+397: as a Launcher
+368: When referencing a resource in the theme, you use the ? notation.
+208: Parts of an implicit intent -> DO ..................
+176-184-192:----255 RecyclerView, Adapter, and ViewHolder
+134: Fragment lifecycle diagram
+ 96:  Figure 5.7 Starting an activity
+
+*
+You can also use Android Studio’s Quick Open dialog by pressing Command+Shift+O (Ctrl+Shift+N) and starting to type the filename.
+Once it has guessed the right file, press Return (Enter) to open it.
+*
+
+
+Key:
+c4e7c9a4c8fbb3fcc647cb1f28df266c
+
+Secret:
+3b0873ecde0fbf68
+
+
+iofp58khbp6yv\gradle-2.14.1-all.zip to C:\Users\sargiskh\.gradle\wrapper\dists\gradle-2.14.1-all\8bnwg5hd3w55iofp58khbp6yv
+

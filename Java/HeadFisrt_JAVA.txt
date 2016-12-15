@@ -1,0 +1,22 @@
+https://zimslifeintcs.files.wordpress.com/2011/12/head-first-java-2nd-edition.pdf
+
+607 - 648/658 : NOT DONE do if there is a time
+
+660 : LOOK AGAIN -> Bit Manipulation
+529 - 579 : LOOK AGAIN -> Data structures
+471 - 529 : LOOK AGAIN -> Make a Connection
+
+575 : private <T extends Animal> void takeAnimals(ArrayList<T> list) {...}
+548 : The Collection API
+547 : <T extends Comperable<? super T>> !!! TODO !!!
+575 : private <T extends Animal> void takeAnimals(ArrayList<T> list) {...}
+533 : Collections, Data Structur
+510 : synchronized  ->  private synchronized void makeWithdrawal(int amount) {...}
+298 : String Formating
+240 : MmClas mmClass = "new" MmClass()
+238 : Stack & Heap
+236 : Stack & Heap
+208 : Any class that does not explicity extend another class, implicitly extends Object
+189 : final class can't be instantiated 
+180 : get morte detail about default and protected in chapter 16 ...
+50  : primitives and references variables

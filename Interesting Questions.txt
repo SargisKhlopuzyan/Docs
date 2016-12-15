@@ -1,0 +1,77 @@
+1.Question is :
+What will be the result of set ?
+--------------------------------
+
+HashSet set = new HashSet();
+
+for(short i = 0; i < 100; i++) {
+	set.add(i);
+	set.remove(i - 1);
+}
+
+sout(set.size());
+
+***********************************
+***********************************
+
+2.Question is :
+How toget odd element from list
+--------------------------------
+
+Integer[] list = {44, 22, 1, 2, 3, 4, 5, 6, 12, 6, 5, 4, 3, 2, 1, 44, 22};
+int xxxxxx = list[0];
+for (int i = 1; i < list.length; i ++) {
+    xxxxxx = xxxxxx^list[i];
+}
+
+Log.e("X_TAG_X", "XX: " + xxxxxx);
+
+***********************************
+***********************************
+
+3.Question is :
+--------------------------------
+115 @ bitayinov entadrenq 01011011 e
+hashvel qani 1 uni ?
+????????????????????????????
+
+***********************************
+***********************************
+
+4.Question is :
+abcd * 9 = dcba
+1089 * 9 = 9801
+arajin@ misht 1 e, verjin@ misht a, 2rd @ kam 0 ekam 1, 1 4i kara lini qani vor kliner aacd => 0 e, 3rdn el hetevum e vor 8 e
+***********************************
+***********************************
+
+5.Question is :
+xxyy = zz*zz
+7744 = 88*88
+-------------
+x*11*100 + y*11 = z*z*11*11
+x*100 + y = 11*z*z
+????????????????????????????
+
+***********************************
+***********************************
+
+6.Question is :
+uennq LinkedLists, vori mej ka asenq 1000 (cankacats qanakutyun) hat erlement, u hnaravora vor in4 vor mekic silka e anum ira naxord elemntin u cikl e mtnum
+vonc parzel ka referance ira naxord naxord elemntneric meki vra te 4e
+------------------------------
+LinkedList mList = new LinkedList();
+...
+mList.next
+mList.mext.next
+u ete referance ka in4 vor mi pahi khavasarven sranc pointerner@ irar
+
+***********************************
+***********************************
+
+7.Question is :
+unenq 2 bajak 100 gramanoc, meki mej 50 gram kat e myusi mej 50 gram kofe
+unenq gtal 10 gramanoc. kati mejic mi gtal vercnum neq lcnum neq kofeyi mej, xarnum neq u kofeyi mejic mi gtal lcnum enq kati mej. 
+Harc` havasar en kati mej exats kofeyi u kofeyi mej exats kateri qanakutyun@ irar te 4e
+---------------
+ha havasar en
